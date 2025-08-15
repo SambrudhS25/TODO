@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:5000/api", // backend URL
+  baseURL: "http://127.0.https://todo-3ndw.onrender.com/.1:5000/api", // backend URL
 });
 
 api.interceptors.request.use((config) => {
